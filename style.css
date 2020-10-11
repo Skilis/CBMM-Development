@@ -240,7 +240,7 @@ img {
 }
 
 .showcase-2 img {
-  width: 130%;
+  width: 80%;
 }
 
 .showcase-2 div p span:after {
@@ -248,12 +248,29 @@ img {
 }
 
 .showcase-3 img {
-  width: 110%;
+  width: 60%;
 }
 
 .showcase-3 div p span:after {
   border-bottom: 2px solid #57695B;
 }
+
+.showcase-4 img {
+  width: 100%;
+}
+
+.showcase-4 div p span:after {
+  border-bottom: 2px solid #FF99A2;
+}
+
+.showcase-5 img {
+  width: 100%;
+}
+
+.showcase-5 div p span:after {
+  border-bottom: 2px solid #FF99A2;
+}
+
 
 /* --- PORTFOLIO SECTION --- */
 
