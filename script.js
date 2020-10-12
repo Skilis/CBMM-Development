@@ -41,7 +41,10 @@ $("#home a").on('click', function(event) {
     
    });
 
- 
+  $(".overlayMore").click(function(){
+    $(".overlayMore").animate({"top":"500px"},800).hide(function(){
+      $("#portfolioContent").height("100%");
+    });
     
   });
   
