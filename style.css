@@ -366,6 +366,14 @@ footer {
     background-image: url("https://res.cloudinary.com/seneca/image/upload/v1602274533/Lakefriday2_cbsdy3.jpg");
   }
 
+  .showcase-4 {
+    background-image: url("https://res.cloudinary.com/seneca/image/upload/v1602274533/Lakefriday2_cbsdy3.jpg");
+  }
+
+  .showcase-5 {
+    background-image: url("https://res.cloudinary.com/seneca/image/upload/v1602274533/Lakefriday2_cbsdy3.jpg");
+  }
+
   .SC div>span {
     padding: 25px;
     background: white;
@@ -381,6 +389,14 @@ footer {
 
   .showcase-3 div>span {
     border: 3px solid #57695B;
+  }
+
+  .showcase-4 div>span {
+    border: 3px solid #6441A4;
+  }
+
+  .showcase-5 div>span {
+    border: 3px solid #6441A4;
   }
 }
 
