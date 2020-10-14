@@ -19,7 +19,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.paralax {
+.parallax {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -411,7 +411,7 @@ footer {
 }
 
 @media only screen and (max-device-width: 1023px) {
-  .paralax {
+  .parallax {
     background-attachment: scroll;
   }
 }
