@@ -139,6 +139,47 @@ body {
   100% {
     margin-top: 20px;
   }
+
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 .welcomeI {
@@ -164,6 +205,8 @@ body {
 
 img {
   width: 100%;
+
+
 }
 
 /* --- ABOUT SECTION --- */
@@ -192,10 +235,13 @@ img {
   margin-top: 10%;
   margin-bottom: 10%;
   font-size: 2em;
+
 }
 
 .img-about {
   box-shadow: 0 0 5px grey;
+  animation: slideInFromBottom 3s ease-in;
+
 }
 
 /* --- ABOUT SECTION --- */
